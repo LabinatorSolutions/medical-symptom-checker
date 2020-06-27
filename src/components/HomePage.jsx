@@ -190,6 +190,7 @@ class HomePage extends Component {
           button_is_disabled: true,
           home_button_checked: false,
           tab_progress: 25,
+          user_symptom_length: 1,
         });
     }
   };
