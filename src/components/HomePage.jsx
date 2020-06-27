@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import "./HomePage.css";
 import Home from "./Home/Home";
-import Patient from "./Patient/Patient";
+import Patient from "./Patient/Patient1";
 import Patient2 from "./Patient/Patient2";
-import Symptom from "./Symptop/Symptom";
+import Symptom from "./Symptom/Symptom";
 import Disease from "./Disease/Disease";
 class HomePage extends Component {
   constructor(props) {

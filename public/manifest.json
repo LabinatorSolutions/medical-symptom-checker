@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "DHILab MSC",
+  "name": "DHILab Medical Symptom Checker",
   "icons": [
     {
       "src": "favicon.ico",

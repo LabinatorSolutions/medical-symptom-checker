@@ -1,7 +1,7 @@
 # DHILab Medical Symptom Checker
 
 ![GUI](https://img.shields.io/badge/GUI-USWDS_2.7.1-black)
-![Language](https://img.shields.io/badge/Language-JavaScript-4A5C1F)
+![Language](https://img.shields.io/badge/Language-JavaScript-green)
 ![JS Library](https://img.shields.io/badge/JS_Library-React-blue)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-purple)
 ![Known Bugs](https://img.shields.io/badge/Known_Bugs-1-red)
@@ -14,6 +14,10 @@ The DHILab Medical Symptom Checker is designed to help you understand the possib
 
 Our mission is to create a free and open source medical symptom checker where all doctors and developers can contribute to it.
 
+## Live Demo
+
+https://dhilab.com/medical-symptom-checker/
+
 ## Features
 
 - Well-constructed medical symptom checker.
@@ -22,6 +26,13 @@ Our mission is to create a free and open source medical symptom checker where al
 - Beginner-friendly.
 - Intuitive interface.
 - Valid source codes.
+
+## Data Sources
+
+You can find the data sources of the symptoms and diseases at:
+
+- **src/data/SymptomName.jsx**
+- **src/data/DiseaseSymptoms.jsx**
 
 ## Building From Source Code Files
 
@@ -32,6 +43,8 @@ npm install
 npm run build
 ```
 3. Test the app locally or online.
+
+**Note:** If you are testing the app in a subfolder or special directory, make sure you set the base URL correctly or else you will end up with a blank white screen.
 
 ## Contribution
 
