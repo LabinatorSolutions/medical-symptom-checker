@@ -4,7 +4,7 @@
 ![Language](https://img.shields.io/badge/Language-JavaScript-026300)
 ![JS Library](https://img.shields.io/badge/JS_Library-React-0047AB)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-5D185B)
-![Known Bugs](https://img.shields.io/badge/Known_Bugs-1-D83933)
+![Known Bugs](https://img.shields.io/badge/Known_Bugs-0-D83933)
 
 ## Description
 
