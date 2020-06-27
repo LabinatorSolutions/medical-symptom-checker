@@ -1,7 +1,7 @@
 # DHILab Medical Symptom Checker
 
 ![GUI](https://img.shields.io/badge/GUI-USWDS_2.7.1-black)
-![Language](https://img.shields.io/badge/Language-JavaScript-yellow)
+![Language](https://img.shields.io/badge/Language-JavaScript-4A5C1F)
 ![JS Library](https://img.shields.io/badge/JS_Library-React-blue)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-purple)
 ![Known Bugs](https://img.shields.io/badge/Known_Bugs-1-red)
