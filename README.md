@@ -44,7 +44,7 @@ npm run build
 ```
 3. Test the app locally or online.
 
-**Note:** If you are testing the app in a subfolder or special directory, make sure you set the base URL correctly or else you will end up with a blank white screen.
+**Note:** If you are testing the app in a subdirectory, make sure to tune the base URL correctly before testing.
 
 ## Contribution
 
