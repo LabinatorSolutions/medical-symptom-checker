@@ -25,13 +25,12 @@ Our mission is to create a free and open source medical symptom checker where al
 
 ## Building From Source Code Files
 
-1. Navigate to the *src/* directory using your terminal.
+1. Navigate to the **src/** directory using your terminal.
 2. Run the following commands:
-
-> npm install
-
-> npm run build
-
+```
+npm install
+npm run build
+```
 3. Test the app locally or online.
 
 ## Contribution
