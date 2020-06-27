@@ -16,7 +16,7 @@ Our mission is to create a free and open source medical symptom checker where al
 
 ## Live Demo
 
-https://dhilab.com/medical-symptom-checker/
+https://dhilab.com/medical-symptom-checker-live/
 
 ## Features
 
