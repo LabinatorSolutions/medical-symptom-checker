@@ -1,0 +1,73 @@
+#main-content > .grid-container > .grid-row {
+  border: 1px solid #555;
+  border-radius: 1rem;
+}
+#Navbar {
+  margin-bottom: 0.5rem;
+}
+#ContentDiv {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+
+}
+.shoPageSection {
+  height: 55vh;
+  overflow-y: auto;
+}
+#buttonsSection {
+  justify-content: space-between;
+  /* padding: 1rem 2rem; */
+  border-top: 1px solid #cfd6dd;
+}
+
+@media (min-width: 64em) {
+  .side-menu-list {
+    list-style-type: none;
+    color: #555555;
+  }
+  .side-menu-list > .list {
+    /* padding: 10px 10px; */
+    font-size: 1rem;
+    border-left: 2px solid #cfd6dd;
+    color: #000;
+  }
+}
+
+.side-menu-list {
+  list-style-type: none;
+  line-height: 1.7;
+}
+.side-menu-list > li {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.active {
+  color: #000;
+  font-weight: bold;
+  color: #0c5f96;
+  border-left: 2px solid #0c5f96;
+}
+
+.done {
+  color: #000;
+  font-weight: normal;
+  border-left: 2px solid #0c5f96;
+}
+
+@media (max-width: 64em) {
+  .side-menu-list > li {
+    float: left;
+    padding: 10px 10px;
+  }
+
+  .active {
+    border-left: none;
+    border-bottom: 2px solid #0c5f96;
+  }
+
+  .done {
+    border-left: none;
+    border-bottom: 2px solid #0c5f96;
+  }
+}

@@ -1,0 +1,26 @@
+#Home {
+  line-height: 1.7;
+}
+#Home p {
+  color: #555555;
+}
+
+#Home ul {
+  color: #555555;
+  list-style-type: square;
+}
+
+#Home ul > li {
+  padding: 0.6rem 0.2rem;
+}
+.TermsCheckbox {
+  font-size: 1rem;
+}
+.usa-checkbox__label::before {
+  height: 1rem;
+  width: 1rem;
+}
+.usa-checkbox__input:checked + .usa-checkbox__label::before {
+  /* background-color: #0c5f96; */
+  outline: none;
+}

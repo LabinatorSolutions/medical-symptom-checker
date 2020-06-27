@@ -1,0 +1,35 @@
+/* ******** PATIENT CSS start **********/
+#Home {
+  line-height: 1.7;
+}
+#Home h2 {
+  color: #005ea2;
+  transition: ease 0.2s;
+}
+/* ******** PATIENT CSS  end**********/
+/* *********PATIENT 2 CSS start ***********/
+
+#Patient2 {
+  line-height: 1.7;
+}
+.FormElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.radioButtonDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .usa-radio__input:focus + .usa-radio__label::before {
+  outline: none;
+} */
+/* button:not([disabled]):focus,
+input:not([disabled]):focus,
+select:not([disabled]):focus,
+textarea:not([disabled]):focus {
+  outline: none;
+  outline-offset: 0;
+} */
+/* *********PATIENT 2 CSS end **********/
