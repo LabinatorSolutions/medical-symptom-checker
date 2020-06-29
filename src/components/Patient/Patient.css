@@ -22,6 +22,23 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 63.938em) {
+  .radioButtonDiv {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .FormElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+}
+
 /* .usa-radio__input:focus + .usa-radio__label::before {
   outline: none;
 } */

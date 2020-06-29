@@ -8,7 +8,6 @@
 #ContentDiv {
   background-color: #ffffff;
   border-radius: 0.5rem;
-
 }
 .shoPageSection {
   height: 55vh;
@@ -18,6 +17,9 @@
   justify-content: space-between;
   /* padding: 1rem 2rem; */
   border-top: 1px solid #cfd6dd;
+}
+#buttonsSection > button {
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width: 64em) {
@@ -55,19 +57,68 @@
   border-left: 2px solid #0c5f96;
 }
 
-@media (max-width: 64em) {
+@media (max-width: 63.938em) {
+	
+  .shoPageSection {
+    height: 100%;
+    overflow-y: visible;
+  }
+	
   .side-menu-list > li {
     float: left;
-    padding: 10px 10px;
+    padding: 10px 10px 3px;
+  }
+  
+  #progressbar {
+    background-color: #cfd6dd;
+    border-radius: 13px;
+    padding: 3px;
+    width: 25%;
+    float: right;
   }
 
+  .progressbardiv {
+    background-color: blue;
+    width: 25%;
+    height: 1px;
+    border-radius: 10px;
+  }
+  .progressbardiv25 {
+    background-color: blue;
+    width: 25%;
+    height: 1px;
+    border-radius: 10px;
+  }
+  .progressbardiv50 {
+    background-color: blue;
+    width: 50%;
+    height: 1px;
+    border-radius: 10px;
+  }
+  .progressbardiv75 {
+    background-color: blue;
+    width: 75%;
+    height: 1px;
+    border-radius: 10px;
+  }
+  .progressbardiv100 {
+    background-color: blue;
+    width: 100%;
+    height: 1px;
+    border-radius: 10px;
+  }
   .active {
     border-left: none;
     border-bottom: 2px solid #0c5f96;
+  }
+  
+  .list {
+    display: none;
   }
 
   .done {
     border-left: none;
     border-bottom: 2px solid #0c5f96;
+	display: none;
   }
 }

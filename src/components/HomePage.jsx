@@ -12,7 +12,7 @@ class HomePage extends Component {
     this.state = {
       current_page: "Home", // Name of the current component
       tab_name: "Welcome",
-      tab_progress: "25",
+      tab_progress: 25,
       button_is_disabled: true, // Next button disabled if not agreed to terms
       home_button_checked: false, //Check if terms are agreed
       age: "18", //Patient Default Age
@@ -235,6 +235,7 @@ class HomePage extends Component {
             <div className="grid-row padding-4">
               <div className="desktop:grid-col-2">
                 <ul className="side-menu-list padding-left-2">
+				  <li id="progressbar"><div className={`${tab_progress === 25 && "progressbardiv25"} ${tab_progress === 50 && "progressbardiv50"} ${tab_progress === 75 && "progressbardiv75"} ${tab_progress === 100 && "progressbardiv100"}`}></div></li>
                   <li className={`${current_page === "Home" ? "active" : "done"}`}>Welcome</li>
                   <li className={`${tab_progress === 50 && "active"} ${tab_progress < 50 && "list"} ${tab_progress > 50 && "done"}`}>Patient</li>
                   <li className={`${tab_progress === 75 && "active"} ${tab_progress < 75 && "list"} ${tab_progress > 75 && "done"}`}>Symptom</li>

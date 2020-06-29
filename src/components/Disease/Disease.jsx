@@ -32,7 +32,7 @@ class Disease extends Component {
           <h2>Diagnosis Report</h2>
           {filtered_list.map((key, id) => (
             <div className="reportDiv" key={id}>
-              <div className="display-flex flex-row flex-justify">
+              <div className="display-flex flex-row flex-justify flex-wrap">
                 <div className="display-flex flex-align-center titleReport">
                   <h4>{key.name}</h4>
                   <a href={`https://en.wikipedia.org/wiki/${key.name}`} title={"wikipedia"} rel="noopener noreferrer" target="blank">
