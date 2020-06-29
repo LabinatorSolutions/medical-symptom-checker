@@ -58,21 +58,21 @@
 }
 
 @media (max-width: 63.938em) {
-	
+
   .usa-navbar {
     border-bottom: none;
   }
-	
+
   .shoPageSection {
     height: 100%;
     overflow-y: visible;
   }
-	
+
   .side-menu-list > li {
     float: left;
     padding: 10px 10px 3px;
   }
-  
+
   #progressbar {
     background-color: #cfd6dd;
     border-radius: 13px;
@@ -82,40 +82,40 @@
   }
 
   .progressbardiv {
-    background-color: blue;
+    background-color: #0c5f96;
     width: 25%;
-    height: 1px;
+    height: 3px;
     border-radius: 10px;
   }
   .progressbardiv25 {
-    background-color: blue;
+    background-color: #0c5f96;
     width: 25%;
-    height: 1px;
+    height: 3px;
     border-radius: 10px;
   }
   .progressbardiv50 {
-    background-color: blue;
+    background-color: #0c5f96;
     width: 50%;
-    height: 1px;
+    height: 3px;
     border-radius: 10px;
   }
   .progressbardiv75 {
-    background-color: blue;
+    background-color: #0c5f96;
     width: 75%;
-    height: 1px;
+    height: 3px;
     border-radius: 10px;
   }
   .progressbardiv100 {
-    background-color: blue;
+    background-color: #0c5f96;
     width: 100%;
-    height: 1px;
+    height: 3px;
     border-radius: 10px;
   }
   .active {
     border-left: none;
     border-bottom: 2px solid #0c5f96;
   }
-  
+
   .list {
     display: none;
   }
