@@ -15,7 +15,7 @@
 .FormElement {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 .radioButtonDiv {
   display: flex;
@@ -32,10 +32,10 @@
   }
   
   .FormElement {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
   }
 }
 

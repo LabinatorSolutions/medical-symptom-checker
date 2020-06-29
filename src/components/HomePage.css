@@ -59,6 +59,10 @@
 
 @media (max-width: 63.938em) {
 	
+  .usa-navbar {
+    border-bottom: none;
+  }
+	
   .shoPageSection {
     height: 100%;
     overflow-y: visible;
