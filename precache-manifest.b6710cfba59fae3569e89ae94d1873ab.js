@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd676d90121bf51a05e11639fc0bcfa1",
+    "revision": "9b7a4502ce5465e1a5eb4dda822ef6d6",
     "url": "/medical-symptom-checker/index.html"
   },
   {
-    "revision": "0d12b7f012d97107b37a",
-    "url": "/medical-symptom-checker/static/css/main.69ccaf17.chunk.css"
+    "revision": "6bf26488ae13eca9a77c",
+    "url": "/medical-symptom-checker/static/css/main.9f471d22.chunk.css"
   },
   {
     "revision": "93c5ac818eaa303b8687",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/medical-symptom-checker/static/js/2.d6faa787.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d12b7f012d97107b37a",
+    "revision": "6bf26488ae13eca9a77c",
     "url": "/medical-symptom-checker/static/js/main.31ba06f0.chunk.js"
   },
   {
