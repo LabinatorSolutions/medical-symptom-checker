@@ -20,14 +20,14 @@
 .radioButtonDiv {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
 }
 
 @media (max-width: 63.938em) {
   .radioButtonDiv {
 	display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
   }
   
