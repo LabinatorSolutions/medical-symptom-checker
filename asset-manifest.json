@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/medical-symptom-checker/static/css/main.9f471d22.chunk.css",
+    "main.css": "/medical-symptom-checker/static/css/main.e4c7b706.chunk.css",
     "main.js": "/medical-symptom-checker/static/js/main.31ba06f0.chunk.js",
     "main.js.map": "/medical-symptom-checker/static/js/main.31ba06f0.chunk.js.map",
     "runtime-main.js": "/medical-symptom-checker/static/js/runtime-main.215e28c6.js",
@@ -8,16 +8,16 @@
     "static/js/2.d6faa787.chunk.js": "/medical-symptom-checker/static/js/2.d6faa787.chunk.js",
     "static/js/2.d6faa787.chunk.js.map": "/medical-symptom-checker/static/js/2.d6faa787.chunk.js.map",
     "index.html": "/medical-symptom-checker/index.html",
-    "precache-manifest.b6710cfba59fae3569e89ae94d1873ab.js": "/medical-symptom-checker/precache-manifest.b6710cfba59fae3569e89ae94d1873ab.js",
+    "precache-manifest.793e759700674eca877392b26b6cb6cb.js": "/medical-symptom-checker/precache-manifest.793e759700674eca877392b26b6cb6cb.js",
     "service-worker.js": "/medical-symptom-checker/service-worker.js",
-    "static/css/main.9f471d22.chunk.css.map": "/medical-symptom-checker/static/css/main.9f471d22.chunk.css.map",
+    "static/css/main.e4c7b706.chunk.css.map": "/medical-symptom-checker/static/css/main.e4c7b706.chunk.css.map",
     "static/js/2.d6faa787.chunk.js.LICENSE.txt": "/medical-symptom-checker/static/js/2.d6faa787.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/medical-symptom-checker/static/media/logo.7c583c79.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.215e28c6.js",
     "static/js/2.d6faa787.chunk.js",
-    "static/css/main.9f471d22.chunk.css",
+    "static/css/main.e4c7b706.chunk.css",
     "static/js/main.31ba06f0.chunk.js"
   ]
 }
