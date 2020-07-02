@@ -1,7 +1,9 @@
 {
-  "name": "dhilab-symptom-checker",
+  "name": "medical-symptom-checker",
   "version": "1.0.0",
-  "private": true,
+  "description": "The DHILab Medical Symptom Checker helps you understand the possible causes of symptoms in children and adults.",
+  "author": "Labinator.com",
+  "license": "GPLv3",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
