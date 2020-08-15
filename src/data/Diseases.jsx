@@ -1,4 +1,4 @@
-export const DiseaseSymptom = {
+export const Diseases = {
   "Hypertensive disease": [
     "Pain chest",
     "Shortness of breath",
@@ -14,7 +14,7 @@ export const DiseaseSymptom = {
     "Angina pectoris",
     "Pressure chest",
   ],
-  "Coronavirus disease 2019": ["Fever", "Dry cough", "Tired", "Pain", "Throat sore", "Diarrhea", "Headache", "Loss of taste or smell", "Out of breath", "Pain chest", "Pressure chest"],
+  "Coronavirus disease 2019": ["Fever", "Dry cough", "Fatigue", "Pain", "Throat sore", "Diarrhea", "Headache", "Loss of taste or smell", "Out of breath", "Pain chest", "Pressure chest"],
   Diabetes: [
     "Polyuria",
     "Polydypsia",
@@ -304,7 +304,6 @@ export const DiseaseSymptom = {
     "Weight gain",
     "Asthenia",
     "Fatigue",
-    "Tired",
     "Agitation",
     "Mental status changes",
     "Motor retardation",
@@ -726,7 +725,6 @@ export const DiseaseSymptom = {
     "Has religious belief",
     "Shortness of breath",
     "Fatigue",
-    "Tired",
     "Overweight",
     "Systolic murmur",
     "Mood depressed",
@@ -1423,7 +1421,6 @@ export const DiseaseSymptom = {
     "Superimposition",
     "Haemoptysis",
     "Fatigue",
-    "Tired",
     "Polydypsia",
     "Difficulty passing urine",
   ],
@@ -1517,9 +1514,7 @@ export const DiseaseSymptom = {
   Neuropathy: ["Asthenia", "Numbness", "Nausea and vomiting", "Awakening early", "Hydropneumothorax", "Superimposition", "Fatigability", "Tenesmus", "Pain", "Slowing of urinary stream"],
   "Kidney disease": ["Shortness of breath", "Hyperkalemia", "Pain chest", "Fever", "Gravida 0", "Bleeding of vagina"],
   "Fibroid tumor": [
-    "Para 2",
     "Haemorrhage",
-    "Abortion",
     "Intermenstrual heavy bleeding",
     "Muscle hypotonia",
     "Hypotonic",
@@ -1934,7 +1929,7 @@ export const DiseaseSymptom = {
     "Rhd positive",
     "Distress respiratory",
   ],
-  Hyperbilirubinemia: ["Cyanosis", "Tachypnea", "Para 1", "Bradycardia", "Breech presentation", "Cushingoid facies", "Cushingoid\u00a0habitus", "Cough", "Myalgia"],
+  Hyperbilirubinemia: ["Cyanosis", "Tachypnea", "Bradycardia", "Breech presentation", "Cushingoid facies", "Cushingoid\u00a0habitus", "Cough", "Myalgia"],
   Influenza: [
     "Uncoordination",
     "Fever",
@@ -2049,7 +2044,6 @@ export const DiseaseSymptom = {
     "Flatulence",
     "Pain",
     "Large-for-dates fetus",
-    "Para 1",
     "Vomiting",
     "Lung nodule",
     "Breech presentation",

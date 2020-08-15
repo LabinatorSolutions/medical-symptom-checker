@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 //data
-import { SymptomName } from "../../data/SymptomName";
-import { DiseaseSymptom } from "../../data/DiseaseSymptoms";
+import { Symptoms } from "../../data/Symptoms";
+import { Diseases } from "../../data/Diseases";
 //component
 
 //CSS
@@ -20,7 +20,7 @@ class Symptom extends Component {
     searched: "",
   };
   //data
-  disease_symptoms = DiseaseSymptom;
+  disease_symptoms = Diseases;
 
   //Adds Symptoms to the UserSymptom state array
 
@@ -78,7 +78,7 @@ class Symptom extends Component {
   /*Button Events*/
 
   //Set the state "Searched" according to the input
-  getInputSymptomName = (e) => {
+  getInputSymptoms = (e) => {
     return this.setState({ searched: e.target.value });
   };
 
@@ -99,7 +99,7 @@ class Symptom extends Component {
   keyDownEvent = (e) => {
     const re = new RegExp(e.target.value.split("").join("\\w*").replace(/\W/, ""), "i");
 
-    const symps = SymptomName.filter((each) => {
+    const symps = Symptoms.filter((each) => {
       return each.match(re);
     });
     if (e.key === "Enter") {
@@ -135,7 +135,7 @@ class Symptom extends Component {
 
   showContent = () => {
     // eslint-disable-next-line default-case
-    const symps = SymptomName.filter((each) => {
+    const symps = Symptoms.filter((each) => {
       return each.toLowerCase().includes(this.state.searched.toLowerCase());
     });
     // console.log(symps, "symps");
@@ -146,7 +146,7 @@ class Symptom extends Component {
           <input
             class="usa-input searchSymptomsInput"
             onKeyDown={this.keyDownEvent}
-            onChange={this.getInputSymptomName}
+            onChange={this.getInputSymptoms}
             placeholder="Search Symptoms"
             id="input-type-text"
             name="input-type-text"

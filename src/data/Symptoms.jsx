@@ -1,10 +1,9 @@
-export const SymptomName = [
+export const Symptoms = [
   "Abdomen acute",
   "Abdominal bloating",
   "Abdominal tenderness",
   "Abnormal sensation",
   "Abnormally hard consistency",
-  "Abortion",
   "Abscess bacterial",
   "Absences finding",
   "Achalasia",
@@ -266,8 +265,6 @@ export const SymptomName = [
   "Palpitation",
   "Panic",
   "Pansystolic murmur",
-  "Para 1",
-  "Para 2",
   "Paralyse",
   "Paraparesis",
   "Paresis",
@@ -371,7 +368,6 @@ export const SymptomName = [
   "Throat sore",
   "Throbbing sensation quality",
   "Tinnitus",
-  "Tired",
   "Titubation",
   "Todd paralysis",
   "Tonic seizures",
