@@ -1,4 +1,4 @@
-# DHILab Medical Symptom Checker
+# Labinator Medical Symptom Checker
 
 ![GUI](https://img.shields.io/badge/GUI-USWDS_2.7.1-0B1013)
 ![Language](https://img.shields.io/badge/Language-JavaScript-026300)
@@ -8,7 +8,7 @@
 
 ## Description
 
-The DHILab Medical Symptom Checker is designed to help you understand the possible causes of symptoms in children and adults.
+The Labinator Medical Symptom Checker is designed to help you understand the possible causes of symptoms in children and adults.
 
 ## Mission
 
@@ -16,7 +16,6 @@ Our mission is to create a free and open source medical symptom checker where al
 
 ## Live Demo
 
-- Live demo on DHILab.com: https://dhilab.com/medical-symptom-checker-live/
 - Live demo on GitHub.io: https://labinatorsolutions.github.io/medical-symptom-checker/
 
 ## Features
